@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutGlobal.CourseService.Listener", "WorkoutGlobal.CourseService.Listener\WorkoutGlobal.CourseService.Listener.csproj", "{C8F3EC9A-F524-48E8-B25E-6F909EFA0A68}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkoutGlobal.Shared.Messages", "..\..\Shared messages\WorkoutGlobal.Shared\WorkoutGlobal.Shared.Messages\WorkoutGlobal.Shared.Messages.csproj", "{FC8ACB86-87A9-4F62-9E8C-DA285F9F4967}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C8F3EC9A-F524-48E8-B25E-6F909EFA0A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F3EC9A-F524-48E8-B25E-6F909EFA0A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F3EC9A-F524-48E8-B25E-6F909EFA0A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8ACB86-87A9-4F62-9E8C-DA285F9F4967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8ACB86-87A9-4F62-9E8C-DA285F9F4967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8ACB86-87A9-4F62-9E8C-DA285F9F4967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8ACB86-87A9-4F62-9E8C-DA285F9F4967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
