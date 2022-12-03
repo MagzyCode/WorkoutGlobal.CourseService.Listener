@@ -11,7 +11,7 @@ namespace WorkoutGlobal.CourseService.Listener.Consumers
         public UpdateUserConsumer(IConfiguration configuration)
         {
             Configuration = configuration;
-            CourseEndpoint = RestService.For<ICourseService>(Configuration["ConsumerUrl"]);
+            CourseEndpoint = RestService.For<ICourseService>(Configuration["MassTransitSettings:ConsumerUrl"]);
         }
 
         public IConfiguration Configuration { get; }
